@@ -18,10 +18,12 @@ you need to get coordinates for the place you want to visit. This application's 
 * Display the information required.
 
 # Architecture
+
 * I used the following languages: Javascript and HTML.
 * I Used LocationIQ API
 
 ## Credit and Collaborations
+
 ![colloboration](/My%20First%20Board%20(1).jpg)
 
 ## Time Estimates:

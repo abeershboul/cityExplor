@@ -21,7 +21,7 @@ class Atp extends React.Component{
     event.preventDefault();
      const cityNam =event.target.city.value;
      const key ='pk.8814dece528e9fd34555ea0a15dbe211';
-     const url =` https://us1.locationiq.com/v1/search?key=${key}&q=${cityNam}&format=json`;
+     const url =`https://us1.locationiq.com/v1/search?key=${key}&q=${cityNam}&format=json`;
     try{
         let res=await axios.get(url);
         this.setState({
@@ -74,7 +74,7 @@ this.setState({
      
      {this.state.errorlag && <p>error:{this.state.error}</p>}
 {this.state.maplag && <img src={`https://maps.locationiq.com/v3/staticmap?key=pk.8814dece528e9fd34555ea0a15dbe211&center=${this.state.lat},${this.state.lon}`}></img>
-  }</div>
+   } </div>
     )
 
   }
