@@ -1,5 +1,5 @@
 import React from "react";
-import Atp from "./ATP";
+import ATP from "./ATP";
 
 class App extends React.Component{
   
@@ -7,7 +7,7 @@ class App extends React.Component{
     return(
 <>
 <h1>City explor</h1>
-<Atp/>
+<ATP/>
 
 
 
