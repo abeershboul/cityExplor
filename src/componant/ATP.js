@@ -6,7 +6,7 @@ import Ratio from 'react-bootstrap/Ratio';
 
 
 
-class MainForm extends React.Component {
+class ATP extends React.Component {
 
   constructor(prop){
     super(prop);
@@ -94,4 +94,4 @@ class MainForm extends React.Component {
   }
 }
 
-export default MainForm;
+export default ATP;
