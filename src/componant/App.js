@@ -1,5 +1,6 @@
 import React from "react";
-import ATP from "./ATP";
+import CityMap from "./cityMap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component{
   
@@ -7,7 +8,7 @@ class App extends React.Component{
     return(
 <>
 <h1>City explor</h1>
-<ATP/>
+<CityMap/>
 
 
 
